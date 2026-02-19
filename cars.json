@@ -1,1 +1,32 @@
-
+[
+  {
+    "id": 1,
+    "marque": "BMW",
+    "modele": "X3",
+    "annee": 2021,
+    "prix": 35000,
+    "puissance": 190,
+    "kilometrage": 40000,
+    "couleur": "Noir",
+    "carburant": "Diesel",
+    "type": "SUV",
+    "boite": "Automatique",
+    "image": "https://via.placeholder.com/300",
+    "lien": "https://example.com/bmw-x3"
+  },
+  {
+    "id": 2,
+    "marque": "Peugeot",
+    "modele": "208",
+    "annee": 2020,
+    "prix": 15000,
+    "puissance": 100,
+    "kilometrage": 30000,
+    "couleur": "Blanc",
+    "carburant": "Essence",
+    "type": "Citadine",
+    "boite": "Manuelle",
+    "image": "https://via.placeholder.com/300",
+    "lien": "https://example.com/peugeot-208"
+  }
+]
