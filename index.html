@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AutoParfait</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<h1>AutoParfait 🚗</h1>
+
+<div class="filters">
+    <input type="number" id="budgetMax" placeholder="Budget max (€)">
+    <input type="number" id="anneeMin" placeholder="Année min">
+    
+    <select id="type">
+        <option value="">Type</option>
+        <option>SUV</option>
+        <option>Citadine</option>
+        <option>Berline</option>
+    </select>
+
+    <select id="carburant">
+        <option value="">Carburant</option>
+        <option>Essence</option>
+        <option>Diesel</option>
+        <option>Electrique</option>
+    </select>
+
+    <button onclick="search()">Rechercher</button>
+</div>
+
+<div id="bestCar"></div>
+<div id="otherCars"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
